@@ -32,8 +32,27 @@ Content-Type: application/json
 ### Partner
 POST http://localhost:3000/partners
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibmFtZSI6IkNhcmxvcyIsImVtYWlsIjoiY2FybG9zQHRlc3QuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJpYXQiOjE3MTg4OTk0NTgsImV4cCI6MTcxODkwOTQ1OH0.ftWgrQrgnDYTsYbc2u8lHfaFbVBYbVFPZZMraQ3VwqA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibmFtZSI6IkNhcmxvcyIsImVtYWlsIjoiY2FybG9zQHRlc3QuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJpYXQiOjE3MTg5NzkyNDIsImV4cCI6MTcxODk4OTI0Mn0.Ea97mrGgtZgvXefJeLpUkkfXgzaUWtuzYeVYnyGgeV4
 
 {
     "name": "partner 1"
+}
+
+### Partner
+GET http://localhost:3000/partners
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibmFtZSI6IkNhcmxvcyIsImVtYWlsIjoiY2FybG9zQHRlc3QuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJpYXQiOjE3MTg5NzkyNDIsImV4cCI6MTcxODk4OTI0Mn0.Ea97mrGgtZgvXefJeLpUkkfXgzaUWtuzYeVYnyGgeV4
+
+{
+    "name": "partner 1"
+}
+
+###
+POST http://localhost:3000/events
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibmFtZSI6IkNhcmxvcyIsImVtYWlsIjoiY2FybG9zQHRlc3QuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJpYXQiOjE3MTg5NzkyNDIsImV4cCI6MTcxODk4OTI0Mn0.Ea97mrGgtZgvXefJeLpUkkfXgzaUWtuzYeVYnyGgeV4
+Content-Type: application/json
+
+{
+    "name": "Evento 01",
+    "description": "Descrição do evento 01",
+    "date": "2024-06-21T23:21:34.60"
 }
