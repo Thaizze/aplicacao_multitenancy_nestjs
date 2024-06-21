@@ -46,7 +46,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibmFtZSI6I
     "name": "partner 1"
 }
 
-###
+### Criar um Evento
 POST http://localhost:3000/events
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibmFtZSI6IkNhcmxvcyIsImVtYWlsIjoiY2FybG9zQHRlc3QuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJpYXQiOjE3MTg5NzkyNDIsImV4cCI6MTcxODk4OTI0Mn0.Ea97mrGgtZgvXefJeLpUkkfXgzaUWtuzYeVYnyGgeV4
 Content-Type: application/json
@@ -56,3 +56,7 @@ Content-Type: application/json
     "description": "Descrição do evento 01",
     "date": "2024-06-21T23:21:34.60"
 }
+
+### Listar os Eventos
+GET http://localhost:3000/events
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibmFtZSI6IkNhcmxvcyIsImVtYWlsIjoiY2FybG9zQHRlc3QuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE5VDE1OjQxOjM0LjUzMloiLCJpYXQiOjE3MTg5NzkyNDIsImV4cCI6MTcxODk4OTI0Mn0.Ea97mrGgtZgvXefJeLpUkkfXgzaUWtuzYeVYnyGgeV4
